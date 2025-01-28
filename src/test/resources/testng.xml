@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite TestNG x Selenium">
-    <test name="Firt My Test">
+    <test name="eCommerce Test Admin Dashboard">
         <classes>
-            <class name="com.belajartestng.CalculatorTest" />
+            <class name="com.belajartestng.HookTest"></class>
+            <class name ="com.belajartestng.authentication.SignInTestAdmin"> </class>
         </classes>
     </test>
+<!--    <parameter name="x" value="10"></parameter>-->
+<!--    <test name="Firt My Test">-->
+<!--        <parameter name="nama" value="budi"></parameter>-->
+<!--        <groups>-->
+<!--            <define name="regression">-->
+<!--                <include name="g2" />-->
+<!--                <include name="g4" />-->
+<!--            </define>-->
+<!--            <run>-->
+<!--                <include name="regression" />-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.belajartestng.Demo5Test" />-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Second My Test2">-->
+<!--        <parameter name="x" value="100"></parameter>-->
+<!--        <parameter name="nama" value="andika"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="com.belajartestng.Demo2Test" />-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+<!--    <test name="eCommerce Test Admin Dashboard">-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            <class name ="com.belajartestng.pages.HookTest"> </class>&ndash;&gt;&ndash;&gt;-->
+
+<!--&lt;!&ndash;&lt;!&ndash;            <class name ="com.belajartestng.HookTest"> </class>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            <class name ="com.belajartestng.pages.authentication.SignInPage"> </class>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--    </test>-->
 </suite>
